@@ -5,11 +5,6 @@
     100% {background-color: rgb(2, 236, 253);}
 }*/
 
-
-
-
-
-
 .fundo{
     
     /*
@@ -18,32 +13,46 @@
     animation-iteration-count: infinite;
     */
 
-    }
-nav> ul{
-    background-color: bisque;
-    color: black;
+}
+
+nav > ul{
+    background-color: rgb(105, 105, 105);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     flex-basis: auto;
     flex-grow: 1;
     list-style: none;
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: flex-end;
 
 }
+
+
 .menu{
-    width: 80px;
-    height: 20px;
-    border: 5px;
-    margin: 2px;
+    width: 45px;
+    background-color: #d1d4d2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    background-color: rgb(226, 229, 229)
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; 
+    border-radius: 3px;   
 }
+
 .Titulo_Principal{
     color: rgb(247, 8, 8);
     font-size: 20pt;
     text-align: center;
 
 }
+
 .noticias{
     grid: 0%;
 }
