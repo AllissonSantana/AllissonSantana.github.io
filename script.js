@@ -1,5 +1,5 @@
 var cont = 0;
-setInterval(function(){
+var cores = function(){
    
     if(cont === 0 ){
         document.body.style.backgroundColor = "green";
@@ -8,4 +8,6 @@ setInterval(function(){
         document.body.style.backgroundColor = "rgba(173, 247, 23)";
         cont = 0;
     }
-},1000);
+}
+
+//setInterval( cores ,1000);
