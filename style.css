@@ -1,17 +1,3 @@
-/* Animações */
-/*@keyframes exemplo{
-    0% { background-color: rgb(2, 236, 253);}
-    50% {background-color: rgb(215, 243, 252);}
-    100% {background-color: rgb(2, 236, 253);}
-}*/
-
-
-
-
-.noticias{
-    grid: 0%;
-}
-
 
 * {
     margin: 0;
