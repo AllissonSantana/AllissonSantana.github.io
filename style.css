@@ -166,15 +166,18 @@ nav {
   padding-top: 15px ;
   
 }
-/* configuração slide.*/
-.slide{
-  display: block;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto ;
-  width: 1000px;
-  height: 400px;
-  background-color: #fff;
-  border-radius: 50px;
+/* configuração Fotos Família.*/
+.Fotos-familia{
+ 
+}
 
+
+.Fotos-familia > picture > img{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 8px solid rgba(44, 72, 83, 0.568);
+  border-radius: 5px;
+  
 }
