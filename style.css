@@ -167,13 +167,9 @@ nav {
   
 }
 /* configuração Fotos Família.*/
-.Fotos-familia{
- 
-}
-
 
 .Fotos-familia > picture > img{
-  display: block;
+  display: flex;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
